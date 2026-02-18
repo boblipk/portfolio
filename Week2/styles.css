@@ -1,14 +1,25 @@
 header {
     background-color: #AEDCC0;
+    margin-top: 50px;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+
 }
 main {
     background-color: #477998;
+    
+    padding: 10px;
 }
 section {
     background-color: #138A36;
 }
 figure {
     background-color: #285238;
+    width: fit-content;
+    padding: 5px;
+    margin: 10px;
 }
 footer {
     background-color: #FFB627;
