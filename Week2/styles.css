@@ -21,6 +21,11 @@ figure {
     width: fit-content;
     padding: 5px;
     margin: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer {
     background-color: #FFB627;
