@@ -1,5 +1,7 @@
 .SubMenu {
     background-color: orange;
+    padding: 10px;
+    margin: 10px;
 }
 .sectName {
     font-size: 24px;
@@ -10,10 +12,33 @@
 .navItem {
     flex: 1;
     padding: 10px;
-    background-color: teal;
     margin-right: 5px;
+    text-align: center;
 }
+.navItem:last-child {
+    margin-right: 0;
+}
+.nav .navItem {
+    background-color: lightseagreen;
+}
+
 .nav {
     display: flex;
+    padding: 10px;
     margin-bottom: 20px;
+    background-color: lightgray;
+}
+.navItem:hover  {
+    filter: brightness(70%);
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: darkblue;
+}
+footer .navItem {
+    background-color: red;
+    color: white;
 }
